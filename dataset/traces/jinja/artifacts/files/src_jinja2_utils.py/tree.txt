@@ -1,0 +1,9 @@
+node_0 (phi=0.788)
+  node_1 (phi=0.788) refined=generate_lorem_ipsum
+    node_3 (phi=0.833) refined=generate_lorem_ipsum
+      node_6 (phi=0.833) refined=generate_lorem_ipsum
+        node_7 (phi=0.833) refined=generate_lorem_ipsum
+          node_13 (phi=0.833)
+            node_18 (phi=0.833)
+              node_19 (phi=0.833) refined=pass_environment
+                node_22 (phi=0.833) refined=pass_environment

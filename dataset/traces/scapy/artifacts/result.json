@@ -1,0 +1,28 @@
+{
+  "status": "completed",
+  "mode": "repo",
+  "repo": "benchmarks/python/scapy",
+  "language": "python",
+  "budget": 10,
+  "width": 2,
+  "files_processed": [
+    "scapy/utils6.py"
+  ],
+  "files_skipped": [],
+  "budget_fully_used": true,
+  "per_file": [
+    {
+      "file": "scapy/utils6.py",
+      "entities": 52,
+      "best_mean_phi": 0.9358974358974359,
+      "iterations": 10,
+      "budget_fully_used": true,
+      "intractable": [
+        "construct_source_candidate_set",
+        "get_source_addr_from_candidate_set",
+        "in6_getAddrType"
+      ]
+    }
+  ],
+  "timestamp": "2026-06-05T14:13:03.535596"
+}

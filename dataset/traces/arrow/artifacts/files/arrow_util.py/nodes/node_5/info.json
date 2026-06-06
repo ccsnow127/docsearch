@@ -1,0 +1,17 @@
+{
+  "id": 5,
+  "event": "commit",
+  "parent_id": 3,
+  "refined_entity": "normalize_timestamp",
+  "phi": {
+    "next_weekday": 1.0,
+    "is_timestamp": 1.0,
+    "validate_ordinal": 1.0,
+    "normalize_timestamp": 0.75,
+    "iso_to_gregorian": 1.0,
+    "validate_bounds": 1.0
+  },
+  "mean_phi": 0.9583333333333334,
+  "intractable": [],
+  "depth": 3
+}

@@ -1,0 +1,15 @@
+[teredoAddrExtractInfo] Target: teredoAddrExtractInfo_teredoAddrExtractInfo_obfuscation_roundtrip | AssertionError: assert [] == ['2001:db8::1...:c000:201::1']
+[teredoAddrExtractInfo] Target: teredoAddrExtractInfo_teredoAddrExtractInfo_obfuscation_roundtrip | Right contains 2 more items, first extra item: '2001:db8::1'
+[teredoAddrExtractInfo] Target: teredoAddrExtractInfo_teredoAddrExtractInfo_obfuscation_roundtrip | Full diff:
+[teredoAddrExtractInfo] Target: teredoAddrExtractInfo_teredoAddrExtractInfo_obfuscation_roundtrip | + []
+[teredoAddrExtractInfo] Target: teredoAddrExtractInfo_teredoAddrExtractInfo_obfuscation_roundtrip | - [
+[teredoAddrExtractInfo] Target: teredoAddrExtractInfo_teredoAddrExtractInfo_obfuscation_roundtrip | -     '2001:db8::1',
+[teredoAddrExtractInfo] Target: teredoAddrExtractInfo_teredoAddrExtractInfo_obfuscation_roundtrip | -     '2002:c000:201::1',
+[teredoAddrExtractInfo] Target: teredoAddrExtractInfo_teredoAddrExtractInfo_obfuscation_roundtrip | - ]
+[teredoAddrExtractInfo] Target: teredoAddrExtractInfo_teredoAddrExtractInfo_obfuscation_roundtrip | AssertionError: assert '2001:db8::2' == '::1'
+[teredoAddrExtractInfo] Target: teredoAddrExtractInfo_teredoAddrExtractInfo_obfuscation_roundtrip | - ::1
+[teredoAddrExtractInfo] Target: teredoAddrExtractInfo_teredoAddrExtractInfo_obfuscation_roundtrip | + 2001:db8::2
+[teredoAddrExtractInfo] Target: teredoAddrExtractInfo_teredoAddrExtractInfo_obfuscation_roundtrip | AssertionError: assert '2001:db8::2' == '::1'
+[teredoAddrExtractInfo] Target: teredoAddrExtractInfo_teredoAddrExtractInfo_obfuscation_roundtrip | - ::1
+[teredoAddrExtractInfo] Target: teredoAddrExtractInfo_teredoAddrExtractInfo_obfuscation_roundtrip | + 2001:db8::2
+[teredoAddrExtractInfo] Target: teredoAddrExtractInfo_teredoAddrExtractInfo_obfuscation_roundtrip | assert ((17 & 1) and (17 & 0))

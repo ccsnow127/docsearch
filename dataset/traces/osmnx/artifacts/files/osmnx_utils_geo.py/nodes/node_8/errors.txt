@@ -1,0 +1,4 @@
+[sample_points] Target: sample_points_sample_points_weighted_sampling | assert False
+[sample_points] Target: sample_points_sample_points_weighted_sampling | +  where False = any(<generator object test__consolidate_subdivide_geometry__consolidate_subdivide_geometry_convex_hull_and_warn.<locals>.<genexpr> at 0x7f8aaf4fe500>)
+[sample_points] Target: sample_points_sample_points_directed_warns | AttributeError
+[sample_points] Target: sample_points_sample_points_weighted_sampling | KeyError: 'crs'

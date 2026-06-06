@@ -1,0 +1,15 @@
+[_irregular] Target: _irregular__case_insensitive_same_first_letter_rules_added | AssertionError: assert 69 == (65 + 6)
+[_irregular] Target: _irregular__case_insensitive_same_first_letter_rules_added | +  where 69 = len([('t[eE][eE][tT][hH]$', 'teeth'), ('T[eE][eE][tT][hH]$', 'Teeth'), ('t[oO][oO][tT][hH]$', 'teeth'), ('T[oO][oO][tT][hH]$', 'Teeth'), ('d[iI][cC][eE]$', 'dice'), ('D[iI][cC][eE]$', 'Dice'), ...])
+[_irregular] Target: _irregular__case_insensitive_same_first_letter_rules_added | +    where [('t[eE][eE][tT][hH]$', 'teeth'), ('T[eE][eE][tT][hH]$', 'Teeth'), ('t[oO][oO][tT][hH]$', 'teeth'), ('T[oO][oO][tT][hH]$', 'Teeth'), ('d[iI][cC][eE]$', 'dice'), ('D[iI][cC][eE]$', 'Dice'), ...] = inflection.PLURALS
+[_irregular] Target: _irregular__case_insensitive_same_first_letter_rules_added | +  and   65 = len([('d[iI][cC][eE]$', 'dice'), ('D[iI][cC][eE]$', 'Dice'), ('d[iI][eE]$', 'dice'), ('D[iI][eE]$', 'Dice'), ('l[iI][cC][eE]$', 'lice'), ('L[iI][cC][eE]$', 'Lice'), ...])
+[pluralize] Target: pluralize_pluralize_uncountable_and_irregular_camelcase | AssertionError: assert 'octopuss' == 'octopi'
+[pluralize] Target: pluralize_pluralize_uncountable_and_irregular_camelcase | - octopi
+[pluralize] Target: pluralize_pluralize_uncountable_and_irregular_camelcase | + octopuss
+[pluralize] Target: pluralize_pluralize_no_rule_match_returns_original | AssertionError: assert 'foos' == 'foo'
+[pluralize] Target: pluralize_pluralize_no_rule_match_returns_original | - foo
+[pluralize] Target: pluralize_pluralize_no_rule_match_returns_original | + foos
+[pluralize] Target: pluralize_pluralize_no_rule_match_returns_original | ?    +
+[tableize] Target: tableize_tableize_underscore_and_pluralize_last_word | AssertionError: assert 'fancy_categorys' == 'fancy_categories'
+[tableize] Target: tableize_tableize_underscore_and_pluralize_last_word | - fancy_categories
+[tableize] Target: tableize_tableize_underscore_and_pluralize_last_word | ?              ^^
+[tableize] Target: tableize_tableize_underscore_and_pluralize_last_word | + fancy_categorys

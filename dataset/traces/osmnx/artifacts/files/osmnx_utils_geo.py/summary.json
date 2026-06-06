@@ -1,0 +1,16 @@
+{
+  "event": "done",
+  "current_node_id": 19,
+  "mean_phi": 0.85,
+  "phi": {
+    "buffer_geometry": 1.0,
+    "interpolate_points": 1.0,
+    "_consolidate_subdivide_geometry": 0.8,
+    "_quadrat_cut_geometry": 1.0,
+    "bbox_from_point": 1.0,
+    "_intersect_index_quadrats": 1.0,
+    "bbox_to_poly": 1.0,
+    "sample_points": 0.0
+  },
+  "intractable": []
+}

@@ -1,0 +1,36 @@
+{
+  "id": 22,
+  "event": "done",
+  "parent_id": 19,
+  "refined_entity": "pass_environment",
+  "phi": {
+    "_MissingType.__repr__": 1.0,
+    "concat_join_alias": 0.0,
+    "pass_context": 0.3333333333333333,
+    "pass_eval_context": 0.5,
+    "pass_environment": 0.5,
+    "_PassArg.from_obj": 1.0,
+    "internalcode": 1.0,
+    "import_string": 1.0,
+    "open_if_exists": 1.0,
+    "object_type_repr": 1.0,
+    "pformat": 1.0,
+    "urlize": 1.0,
+    "generate_lorem_ipsum": 0.0,
+    "url_quote": 1.0,
+    "LRUCache": 1.0,
+    "LRUCache.get": 1.0,
+    "LRUCache.copy": 1.0,
+    "select_autoescape": 1.0,
+    "htmlsafe_json_dumps": 1.0,
+    "Cycler.next": 1.0,
+    "Joiner.__call__": 1.0,
+    "Namespace.__getattribute__": 1.0
+  },
+  "mean_phi": 0.8333333333333333,
+  "intractable": [
+    "generate_lorem_ipsum",
+    "pass_eval_context"
+  ],
+  "depth": 8
+}

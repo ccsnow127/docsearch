@@ -1,0 +1,13 @@
+{
+  "id": 4,
+  "event": "candidate",
+  "parent_id": 1,
+  "refined_entity": "smart_truncate",
+  "phi": {
+    "smart_truncate": 0.9,
+    "slugify": 0.0
+  },
+  "mean_phi": 0.45,
+  "intractable": [],
+  "depth": 2
+}

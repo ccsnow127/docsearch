@@ -1,0 +1,15 @@
+[in6_isaddrTeredo] Target: in6_isaddrTeredo_in6_isaddrTeredo_matches_conf_prefix | OSError: illegal IP address string passed to inet_pton
+[teredoAddrExtractInfo] Target: teredoAddrExtractInfo_teredoAddrExtractInfo_obfuscation_roundtrip | AssertionError: assert ['2001:db8::1...c000:0201::1'] == ['2001:db8::1...:c000:201::1']
+[teredoAddrExtractInfo] Target: teredoAddrExtractInfo_teredoAddrExtractInfo_obfuscation_roundtrip | At index 1 diff: '2002:c000:0201::1' != '2002:c000:201::1'
+[teredoAddrExtractInfo] Target: teredoAddrExtractInfo_teredoAddrExtractInfo_obfuscation_roundtrip | Full diff:
+[teredoAddrExtractInfo] Target: teredoAddrExtractInfo_teredoAddrExtractInfo_obfuscation_roundtrip | [
+[teredoAddrExtractInfo] Target: teredoAddrExtractInfo_teredoAddrExtractInfo_obfuscation_roundtrip | '2001:db8::1',
+[teredoAddrExtractInfo] Target: teredoAddrExtractInfo_teredoAddrExtractInfo_obfuscation_roundtrip | -     '2002:c000:201::1',...
+[teredoAddrExtractInfo] Target: teredoAddrExtractInfo_teredoAddrExtractInfo_obfuscation_roundtrip | ...Full output truncated (3 lines hidden), use '-vv' to show
+[teredoAddrExtractInfo] Target: teredoAddrExtractInfo_teredoAddrExtractInfo_obfuscation_roundtrip | AssertionError: assert '2001:db8::2' == '::1'
+[teredoAddrExtractInfo] Target: teredoAddrExtractInfo_teredoAddrExtractInfo_obfuscation_roundtrip | - ::1
+[teredoAddrExtractInfo] Target: teredoAddrExtractInfo_teredoAddrExtractInfo_obfuscation_roundtrip | + 2001:db8::2
+[teredoAddrExtractInfo] Target: teredoAddrExtractInfo_teredoAddrExtractInfo_obfuscation_roundtrip | AssertionError: assert '2001:db8::2' == '::1'
+[teredoAddrExtractInfo] Target: teredoAddrExtractInfo_teredoAddrExtractInfo_obfuscation_roundtrip | - ::1
+[teredoAddrExtractInfo] Target: teredoAddrExtractInfo_teredoAddrExtractInfo_obfuscation_roundtrip | + 2001:db8::2
+[teredoAddrExtractInfo] Target: teredoAddrExtractInfo_teredoAddrExtractInfo_obfuscation_roundtrip | assert ((1 & 1) and (1 & 0))

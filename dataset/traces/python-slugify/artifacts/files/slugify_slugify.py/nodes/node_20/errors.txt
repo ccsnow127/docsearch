@@ -1,0 +1,11 @@
+[slugify] Target: slugify_slugify_unidecode_returning_bytes_is_decoded | AssertionError: assert 'ij' == 'abc'
+[slugify] Target: slugify_slugify_unidecode_returning_bytes_is_decoded | - abc
+[slugify] Target: slugify_slugify_unidecode_returning_bytes_is_decoded | + ij
+[slugify] Target: slugify_slugify_decimal_exception_path_is_swallowed | AttributeError: <module 'slugify' from 'slugify.py'> has no attribute 'DECIMAL_PATTERN'
+[slugify] Target: slugify_slugify_hex_exception_path_is_swallowed | AttributeError: <module 'slugify' from 'slugify.py'> has no attribute 'HEX_PATTERN'
+[slugify] Target: slugify_slugify_non_str_input_is_decoded_from_utf8_bytes | AssertionError: assert 'cafa' == 'cafe'
+[slugify] Target: slugify_slugify_non_str_input_is_decoded_from_utf8_bytes | - cafe
+[slugify] Target: slugify_slugify_non_str_input_is_decoded_from_utf8_bytes | ?    ^
+[slugify] Target: slugify_slugify_non_str_input_is_decoded_from_utf8_bytes | + cafa
+[slugify] Target: slugify_slugify_non_str_input_is_decoded_from_utf8_bytes | ?    ^
+[slugify] Target: slugify_slugify_unidecode_returning_bytes_is_decoded | AttributeError: <function unidecode at 0x7f06f5281940> has no attribute 'unidecode'

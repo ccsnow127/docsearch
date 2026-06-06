@@ -1,0 +1,27 @@
+{
+  "status": "completed",
+  "mode": "repo",
+  "repo": "benchmarks/python/jinja",
+  "language": "python",
+  "budget": 10,
+  "width": 2,
+  "files_processed": [
+    "src/jinja2/utils.py"
+  ],
+  "files_skipped": [],
+  "budget_fully_used": true,
+  "per_file": [
+    {
+      "file": "src/jinja2/utils.py",
+      "entities": 56,
+      "best_mean_phi": 0.8333333333333333,
+      "iterations": 10,
+      "budget_fully_used": true,
+      "intractable": [
+        "generate_lorem_ipsum",
+        "pass_eval_context"
+      ]
+    }
+  ],
+  "timestamp": "2026-06-05T09:45:56.192314"
+}

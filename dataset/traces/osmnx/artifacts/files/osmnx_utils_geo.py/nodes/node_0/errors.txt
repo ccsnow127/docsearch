@@ -1,0 +1,14 @@
+[buffer_geometry] Target: buffer_geometry_buffer_geometry_returns_polygon_like | NameError: name 'projection' is not defined
+[buffer_geometry] Target: buffer_geometry_buffer_geometry_returns_polygon_like | AttributeError: module 'osmnx_synth.utils_geo' has no attribute 'settings'
+[buffer_geometry] Target: buffer_geometry_buffer_geometry_returns_polygon_like | AttributeError: module 'osmnx_synth.utils_geo' has no attribute 'settings'
+[bbox_from_point] Target: bbox_from_point_bbox_from_point_unprojected_return_crs_ignored | NameError: name 'utils' is not defined
+[bbox_from_point] Target: bbox_from_point_bbox_from_point_unprojected_symmetry | NameError: name 'utils' is not defined
+[bbox_from_point] Target: bbox_from_point_bbox_from_point_overload_paths_smoke | NameError: name 'utils' is not defined
+[bbox_from_point] Target: bbox_from_point_bbox_from_point_projected_no_crs | NameError: name 'projection' is not defined
+[bbox_from_point] Target: bbox_from_point_bbox_from_point_projected_return_crs | NameError: name 'projection' is not defined
+[bbox_from_point] Target: bbox_from_point_bbox_from_point_projected_return_crs | AttributeError: module 'osmnx_synth.utils_geo' has no attribute 'settings'
+[bbox_from_point] Target: bbox_from_point_bbox_from_point_projected_return_crs | AttributeError: module 'osmnx_synth.utils_geo' has no attribute 'settings'
+[bbox_from_point] Target: bbox_from_point_bbox_from_point_projected_return_crs | AttributeError: module 'osmnx_synth.utils_geo' has no attribute 'utils'
+[_intersect_index_quadrats] Target: _intersect_index_quadrats__intersect_index_quadrats_basic | AttributeError: module 'osmnx_synth.utils_geo' has no attribute 'utils'
+[sample_points] Target: sample_points_sample_points_directed_warns | AttributeError: module 'osmnx_synth.utils_geo' has no attribute 'convert'
+[sample_points] Target: sample_points_sample_points_weighted_sampling | NameError: name 'convert' is not defined

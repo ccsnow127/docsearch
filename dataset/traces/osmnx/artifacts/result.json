@@ -1,0 +1,24 @@
+{
+  "status": "completed",
+  "mode": "repo",
+  "repo": "benchmarks/python/osmnx",
+  "language": "python",
+  "budget": 10,
+  "width": 2,
+  "files_processed": [
+    "osmnx/utils_geo.py"
+  ],
+  "files_skipped": [],
+  "budget_fully_used": true,
+  "per_file": [
+    {
+      "file": "osmnx/utils_geo.py",
+      "entities": 8,
+      "best_mean_phi": 0.85,
+      "iterations": 10,
+      "budget_fully_used": true,
+      "intractable": []
+    }
+  ],
+  "timestamp": "2026-06-05T12:35:43.733386"
+}

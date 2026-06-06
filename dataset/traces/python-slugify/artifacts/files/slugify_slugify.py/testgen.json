@@ -1,0 +1,6 @@
+{
+  "status": "generated",
+  "file": "slugify/slugify.py",
+  "test_file": "test_slugify.py",
+  "num_tests": 28
+}

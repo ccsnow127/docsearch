@@ -1,0 +1,8 @@
+[_intersect_index_quadrats] Target: _intersect_index_quadrats__intersect_index_quadrats_basic | AttributeError: module 'osmnx_synth.utils_geo' has no attribute 'utils'
+[sample_points] Target: sample_points_sample_points_weighted_sampling | AttributeError: module 'osmnx_synth.utils_geo' has no attribute 'settings'
+[sample_points] Target: sample_points_sample_points_weighted_sampling | AttributeError: module 'osmnx_synth.utils_geo' has no attribute 'settings'
+[sample_points] Target: sample_points_sample_points_weighted_sampling | AttributeError: module 'osmnx_synth.utils_geo' has no attribute 'settings'
+[sample_points] Target: sample_points_sample_points_weighted_sampling | AttributeError: module 'osmnx_synth.utils_geo' has no attribute 'settings'
+[sample_points] Target: sample_points_sample_points_weighted_sampling | AttributeError: module 'osmnx_synth.utils_geo' has no attribute 'utils'
+[sample_points] Target: sample_points_sample_points_directed_warns | AttributeError: module 'osmnx_synth.utils_geo' has no attribute 'convert'
+[sample_points] Target: sample_points_sample_points_weighted_sampling | KeyError: 'crs'

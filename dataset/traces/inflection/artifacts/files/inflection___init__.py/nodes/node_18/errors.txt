@@ -1,0 +1,15 @@
+[_irregular] Target: _irregular__case_insensitive_same_first_letter_rules_added | AssertionError: assert 1 == (0 + 2)
+[_irregular] Target: _irregular__case_insensitive_same_first_letter_rules_added | +  where 1 = len([('(?i)(t)eeth$', '\\1ooth')])
+[_irregular] Target: _irregular__case_insensitive_same_first_letter_rules_added | +    where [('(?i)(t)eeth$', '\\1ooth')] = inflection.SINGULARS
+[_irregular] Target: _irregular__case_insensitive_same_first_letter_rules_added | +  and   0 = len([])
+[_irregular] Target: _irregular__different_first_letter_rules_added | AssertionError: assert 12 == (6 + 4)
+[_irregular] Target: _irregular__different_first_letter_rules_added | +  where 12 = len([('(?i)(g)oose$', '\\1eese'), ('(?i)(G)oose$', '\\1eese'), ('(?i)(g)eese$', '\\1eese'), ('(?i)(G)eese$', '\\1eese'), ('(?i)(g)eese$', '\\1eese'), ('(?i)(g)oose$', '\\1eese'), ...])
+[_irregular] Target: _irregular__different_first_letter_rules_added | +    where [('(?i)(g)oose$', '\\1eese'), ('(?i)(G)oose$', '\\1eese'), ('(?i)(g)eese$', '\\1eese'), ('(?i)(G)eese$', '\\1eese'), ('(?i)(g)eese$', '\\1eese'), ('(?i)(g)oose$', '\\1eese'), ...] = inflection.PLURALS
+[_irregular] Target: _irregular__different_first_letter_rules_added | +  and   6 = len([('(?i)(t)ooth$', '\\1eeth'), ('(?i)(T)ooth$', '\\1eeth'), ('(?i)(t)eeth$', '\\1eeth'), ('(?i)(T)eeth$', '\\1eeth'), ('(?i)(t)eeth$', '\\1eeth'), ('(?i)(t)ooth$', '\\1eeth')])
+[pluralize] Target: pluralize_pluralize_uncountable_and_irregular_camelcase | AssertionError: assert 'octopus' == 'octopi'
+[pluralize] Target: pluralize_pluralize_uncountable_and_irregular_camelcase | - octopi
+[pluralize] Target: pluralize_pluralize_uncountable_and_irregular_camelcase | ?      ^
+[pluralize] Target: pluralize_pluralize_uncountable_and_irregular_camelcase | + octopus
+[pluralize] Target: pluralize_pluralize_uncountable_and_irregular_camelcase | ?      ^^
+[singularize] Target: singularize_singularize_uncountable_and_regular_and_camelcase | AssertionError: assert 'posts' == 'post'
+[singularize] Target: singularize_singularize_uncountable_and_regular_and_camelcase | - post

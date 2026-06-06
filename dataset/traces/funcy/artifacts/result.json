@@ -1,0 +1,24 @@
+{
+  "status": "completed",
+  "mode": "repo",
+  "repo": "benchmarks/python/funcy",
+  "language": "python",
+  "budget": 10,
+  "width": 2,
+  "files_processed": [
+    "funcy/seqs.py"
+  ],
+  "files_skipped": [],
+  "budget_fully_used": true,
+  "per_file": [
+    {
+      "file": "funcy/seqs.py",
+      "entities": 64,
+      "best_mean_phi": 0.8695652173913043,
+      "iterations": 10,
+      "budget_fully_used": true,
+      "intractable": []
+    }
+  ],
+  "timestamp": "2026-06-05T16:14:05.627738"
+}

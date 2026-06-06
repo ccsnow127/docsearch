@@ -1,0 +1,12 @@
+[_irregular] Target: _irregular__case_insensitive_same_first_letter_rules_added | AssertionError: assert 43 == (41 + 6)
+[_irregular] Target: _irregular__case_insensitive_same_first_letter_rules_added | +  where 43 = len([('(?i)(t)eeth$', '\\1eeth'), ('(?i)(t)ooth$', '\\1eeth'), ('(?i)(d)ice$', '\\1ice'), ('(?i)(d)ie$', '\\1ice'), ('(?i)(o)xen$', '\\1xen'), ('(?i)(o)x$', '\\1xen'), ...])
+[_irregular] Target: _irregular__case_insensitive_same_first_letter_rules_added | +    where [('(?i)(t)eeth$', '\\1eeth'), ('(?i)(t)ooth$', '\\1eeth'), ('(?i)(d)ice$', '\\1ice'), ('(?i)(d)ie$', '\\1ice'), ('(?i)(o)xen$', '\\1xen'), ('(?i)(o)x$', '\\1xen'), ...] = inflection.PLURALS
+[_irregular] Target: _irregular__case_insensitive_same_first_letter_rules_added | +  and   41 = len([('(?i)(d)ice$', '\\1ice'), ('(?i)(d)ie$', '\\1ice'), ('(?i)(o)xen$', '\\1xen'), ('(?i)(o)x$', '\\1xen'), ('(?i)(f)eet$', '\\1eet'), ('(?i)(f)oot$', '\\1eet'), ...])
+[_irregular] Target: _irregular__different_first_letter_rules_added | AssertionError: assert 45 == (43 + 4)
+[_irregular] Target: _irregular__different_first_letter_rules_added | +  where 45 = len([('(?i)(g)eese$', '\\1eese'), ('(?i)(g)oose$', '\\1eese'), ('(?i)(t)eeth$', '\\1eeth'), ('(?i)(t)ooth$', '\\1eeth'), ('(?i)(d)ice$', '\\1ice'), ('(?i)(d)ie$', '\\1ice'), ...])
+[_irregular] Target: _irregular__different_first_letter_rules_added | +    where [('(?i)(g)eese$', '\\1eese'), ('(?i)(g)oose$', '\\1eese'), ('(?i)(t)eeth$', '\\1eeth'), ('(?i)(t)ooth$', '\\1eeth'), ('(?i)(d)ice$', '\\1ice'), ('(?i)(d)ie$', '\\1ice'), ...] = inflection.PLURALS
+[_irregular] Target: _irregular__different_first_letter_rules_added | +  and   43 = len([('(?i)(t)eeth$', '\\1eeth'), ('(?i)(t)ooth$', '\\1eeth'), ('(?i)(d)ice$', '\\1ice'), ('(?i)(d)ie$', '\\1ice'), ('(?i)(o)xen$', '\\1xen'), ('(?i)(o)x$', '\\1xen'), ...])
+[pluralize] Target: pluralize_pluralize_no_rule_match_returns_original | AssertionError: assert 'foos' == 'foo'
+[pluralize] Target: pluralize_pluralize_no_rule_match_returns_original | - foo
+[pluralize] Target: pluralize_pluralize_no_rule_match_returns_original | + foos
+[pluralize] Target: pluralize_pluralize_no_rule_match_returns_original | ?    +

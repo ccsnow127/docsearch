@@ -1,0 +1,27 @@
+{
+  "id": 18,
+  "event": "candidate",
+  "parent_id": 16,
+  "refined_entity": "_irregular",
+  "phi": {
+    "_irregular": 0.0,
+    "camelize": 1.0,
+    "dasherize": 1.0,
+    "humanize": 1.0,
+    "ordinal": 1.0,
+    "ordinalize": 1.0,
+    "parameterize": 1.0,
+    "pluralize": 0.5,
+    "singularize": 0.0,
+    "tableize": 0.0,
+    "titleize": 1.0,
+    "transliterate": 1.0,
+    "underscore": 1.0
+  },
+  "mean_phi": 0.7307692307692307,
+  "intractable": [
+    "pluralize",
+    "singularize"
+  ],
+  "depth": 6
+}

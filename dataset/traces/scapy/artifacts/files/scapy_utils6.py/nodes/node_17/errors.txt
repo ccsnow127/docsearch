@@ -1,0 +1,14 @@
+[in6_getAddrType] Target: in6_getAddrType_in6_getAddrType_unicast_global_and_6to4_and_loopback_unspecified_multicast | AssertionError: assert ['2001:db8::1...c000:0201::1'] == ['2001:db8::1...:c000:201::1']
+[in6_getAddrType] Target: in6_getAddrType_in6_getAddrType_unicast_global_and_6to4_and_loopback_unspecified_multicast | At index 1 diff: '2002:c000:0201::1' != '2002:c000:201::1'
+[in6_getAddrType] Target: in6_getAddrType_in6_getAddrType_unicast_global_and_6to4_and_loopback_unspecified_multicast | Full diff:
+[in6_getAddrType] Target: in6_getAddrType_in6_getAddrType_unicast_global_and_6to4_and_loopback_unspecified_multicast | [
+[in6_getAddrType] Target: in6_getAddrType_in6_getAddrType_unicast_global_and_6to4_and_loopback_unspecified_multicast | '2001:db8::1',
+[in6_getAddrType] Target: in6_getAddrType_in6_getAddrType_unicast_global_and_6to4_and_loopback_unspecified_multicast | -     '2002:c000:201::1',...
+[in6_getAddrType] Target: in6_getAddrType_in6_getAddrType_unicast_global_and_6to4_and_loopback_unspecified_multicast | ...Full output truncated (3 lines hidden), use '-vv' to show
+[in6_getAddrType] Target: in6_getAddrType_in6_getAddrType_unicast_global_and_6to4_and_loopback_unspecified_multicast | AssertionError: assert '2001:db8::2' == '::1'
+[in6_getAddrType] Target: in6_getAddrType_in6_getAddrType_unicast_global_and_6to4_and_loopback_unspecified_multicast | - ::1
+[in6_getAddrType] Target: in6_getAddrType_in6_getAddrType_unicast_global_and_6to4_and_loopback_unspecified_multicast | + 2001:db8::2
+[in6_getAddrType] Target: in6_getAddrType_in6_getAddrType_unicast_global_and_6to4_and_loopback_unspecified_multicast | AssertionError: assert '2001:db8::2' == '::1'
+[in6_getAddrType] Target: in6_getAddrType_in6_getAddrType_unicast_global_and_6to4_and_loopback_unspecified_multicast | - ::1
+[in6_getAddrType] Target: in6_getAddrType_in6_getAddrType_unicast_global_and_6to4_and_loopback_unspecified_multicast | + 2001:db8::2
+[in6_getAddrType] Target: in6_getAddrType_in6_getAddrType_unicast_global_and_6to4_and_loopback_unspecified_multicast | assert ((1 & 1) and (1 & 0))

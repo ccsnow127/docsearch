@@ -1,0 +1,8 @@
+node_0 (phi=0.692)
+  node_1 (phi=0.731) refined=singularize
+    node_6 (phi=0.731) refined=singularize
+      node_9 (phi=0.731)
+        node_10 (phi=0.885) refined=pluralize
+          node_16 (phi=0.885)
+            node_19 (phi=0.885) refined=_irregular
+              node_23 (phi=0.885)

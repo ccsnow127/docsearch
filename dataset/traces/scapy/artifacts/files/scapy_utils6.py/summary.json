@@ -1,0 +1,38 @@
+{
+  "event": "done",
+  "current_node_id": 23,
+  "mean_phi": 0.9358974358974359,
+  "phi": {
+    "construct_source_candidate_set": 0.5,
+    "get_source_addr_from_candidate_set": 0.8333333333333334,
+    "in6_getAddrType": 0.0,
+    "in6_mactoifaceid": 1.0,
+    "in6_ifaceidtomac": 1.0,
+    "in6_addrtomac": 1.0,
+    "in6_getLinkScopedMcastAddr": 1.0,
+    "in6_get6to4Prefix": 1.0,
+    "in6_getLocalUniquePrefix": 1.0,
+    "in6_getRandomizedIfaceId": 1.0,
+    "in6_ptoc": 1.0,
+    "in6_ctop": 1.0,
+    "in6_isaddr6to4": 1.0,
+    "in6_isaddrTeredo": 1.0,
+    "teredoAddrExtractInfo": 1.0,
+    "in6_iseui64": 1.0,
+    "in6_or": 1.0,
+    "in6_cidr2mask": 1.0,
+    "in6_getnsma": 1.0,
+    "in6_getha": 1.0,
+    "in6_ptop": 1.0,
+    "in6_isincluded": 1.0,
+    "in6_isllsnmaddr": 1.0,
+    "in6_isdocaddr": 1.0,
+    "in6_islladdr": 1.0,
+    "in6_get_common_plen": 1.0
+  },
+  "intractable": [
+    "construct_source_candidate_set",
+    "get_source_addr_from_candidate_set",
+    "in6_getAddrType"
+  ]
+}

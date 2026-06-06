@@ -1,0 +1,42 @@
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+build/
+dist/
+.pytest_cache/
+.coverage
+htmlcov/
+.ruff_cache/
+.mypy_cache/
+
+# editors
+.vscode/
+.idea/
+
+# env
+.env
+.venv/
+venv/
+
+# runtime
+runs/
+runs_java/
+runs_verify/
+results/
+*.log
+
+# NOTE: dataset/ IS committed (the curated representative-run gallery) — it is
+# intentionally NOT gitignored.
+
+# Java test-harness JARs (binaries) — fetch with scripts/fetch_libs.sh
+src/libs/
+
+# LLM-generated test caches
+benchmarks/**/llm_tests.json
+
+
+# raw input repos (local eval set; too large to publish)
+benchmarks/python/
+benchmarks/java/

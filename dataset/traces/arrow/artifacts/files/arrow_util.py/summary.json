@@ -1,0 +1,14 @@
+{
+  "event": "done",
+  "current_node_id": 19,
+  "mean_phi": 0.9583333333333334,
+  "phi": {
+    "next_weekday": 1.0,
+    "is_timestamp": 1.0,
+    "validate_ordinal": 1.0,
+    "normalize_timestamp": 0.75,
+    "iso_to_gregorian": 1.0,
+    "validate_bounds": 1.0
+  },
+  "intractable": []
+}

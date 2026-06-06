@@ -1,0 +1,25 @@
+{
+  "event": "done",
+  "current_node_id": 23,
+  "mean_phi": 0.8846153846153846,
+  "phi": {
+    "_irregular": 0.0,
+    "camelize": 1.0,
+    "dasherize": 1.0,
+    "humanize": 1.0,
+    "ordinal": 1.0,
+    "ordinalize": 1.0,
+    "parameterize": 1.0,
+    "pluralize": 0.5,
+    "singularize": 1.0,
+    "tableize": 1.0,
+    "titleize": 1.0,
+    "transliterate": 1.0,
+    "underscore": 1.0
+  },
+  "intractable": [
+    "_irregular",
+    "pluralize",
+    "singularize"
+  ]
+}

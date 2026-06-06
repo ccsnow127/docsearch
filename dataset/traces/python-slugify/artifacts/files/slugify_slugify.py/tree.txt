@@ -1,0 +1,11 @@
+node_0 (phi=0.811)
+  node_1 (phi=0.811) refined=smart_truncate
+    node_3 (phi=0.811) refined=smart_truncate
+      node_7 (phi=0.811)
+        node_8 (phi=0.478) refined=slugify
+          node_10 (phi=0.811) refined=slugify
+            node_12 (phi=0.839) refined=slugify
+              node_14 (phi=0.839) refined=slugify
+                node_16 (phi=0.839) refined=slugify
+                  node_18 (phi=0.811) refined=slugify
+                    node_20 (phi=0.839) refined=slugify

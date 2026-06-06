@@ -1,0 +1,13 @@
+[slugify] Target: slugify_slugify_disallow_unicode_transliterates | AssertionError: assert 'ij' == 'abc'
+[slugify] Target: slugify_slugify_disallow_unicode_transliterates | - abc
+[slugify] Target: slugify_slugify_disallow_unicode_transliterates | + ij
+[slugify] Target: slugify_slugify_non_str_input_is_decoded_from_utf8_bytes | AssertionError: assert 'cafa' == 'cafe'
+[slugify] Target: slugify_slugify_non_str_input_is_decoded_from_utf8_bytes | - cafe
+[slugify] Target: slugify_slugify_non_str_input_is_decoded_from_utf8_bytes | ?    ^
+[slugify] Target: slugify_slugify_non_str_input_is_decoded_from_utf8_bytes | + cafa
+[slugify] Target: slugify_slugify_non_str_input_is_decoded_from_utf8_bytes | ?    ^
+[slugify] Target: slugify_slugify_unidecode_returning_bytes_is_decoded | AttributeError: module 'slugify' has no attribute 'unidecode'
+[slugify] Target: slugify_slugify_disallow_unicode_transliterates | AssertionError: assert 'zazoc-gesla' == 'zazolc-gesla'
+[slugify] Target: slugify_slugify_disallow_unicode_transliterates | - zazolc-gesla
+[slugify] Target: slugify_slugify_disallow_unicode_transliterates | ?     -
+[slugify] Target: slugify_slugify_disallow_unicode_transliterates | + zazoc-gesla

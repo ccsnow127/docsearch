@@ -1,0 +1,26 @@
+{
+  "status": "completed",
+  "mode": "repo",
+  "repo": "benchmarks/python/python-slugify",
+  "language": "python",
+  "budget": 10,
+  "width": 2,
+  "files_processed": [
+    "slugify/slugify.py"
+  ],
+  "files_skipped": [],
+  "budget_fully_used": true,
+  "per_file": [
+    {
+      "file": "slugify/slugify.py",
+      "entities": 2,
+      "best_mean_phi": 0.8388888888888889,
+      "iterations": 10,
+      "budget_fully_used": true,
+      "intractable": [
+        "smart_truncate"
+      ]
+    }
+  ],
+  "timestamp": "2026-06-05T15:54:22.219522"
+}

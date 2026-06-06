@@ -1,0 +1,10 @@
+[lmap] Target: lmap_lfilter_map_filter_make_func_and_make_pred | TypeError: 'Obj' object is not subscriptable
+[lconcat] Target: lconcat_concat_lcat_cat_and_flatten_flatten_mapcat_mapcat | ValueError: Cycle detected in flatten
+[split_by] Target: split_by_split_by_and_lsplit_by_lsplit_by_one_arg_predicate | TypeError: lsplit_by() missing 1 required positional argument: 'seq'
+[partition_by] Target: partition_by_partition_by_and_lpartition_by_lpartition_by | AssertionError: assert [[], [], []] == [[1, 3], [2, 4], [5]]
+[partition_by] Target: partition_by_partition_by_and_lpartition_by_lpartition_by | At index 0 diff: [] != [1, 3]
+[partition_by] Target: partition_by_partition_by_and_lpartition_by_lpartition_by | Full diff:
+[partition_by] Target: partition_by_partition_by_and_lpartition_by_lpartition_by | [
+[partition_by] Target: partition_by_partition_by_and_lpartition_by_lpartition_by | -     [
+[partition_by] Target: partition_by_partition_by_and_lpartition_by_lpartition_by | -         1,...
+[partition_by] Target: partition_by_partition_by_and_lpartition_by_lpartition_by | ...Full output truncated (16 lines hidden), use '-vv' to show

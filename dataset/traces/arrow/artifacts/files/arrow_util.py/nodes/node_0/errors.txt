@@ -1,0 +1,7 @@
+[normalize_timestamp] Target: normalize_timestamp_normalize_timestamp_divides_milliseconds | assert False
+[normalize_timestamp] Target: normalize_timestamp_normalize_timestamp_divides_milliseconds | +  where False = <built-in function isclose>(253402319800.0, (253402319800.0 / 1000))
+[normalize_timestamp] Target: normalize_timestamp_normalize_timestamp_divides_milliseconds | +    where <built-in function isclose> = math.isclose
+[normalize_timestamp] Target: normalize_timestamp_normalize_timestamp_divides_microseconds | assert False
+[normalize_timestamp] Target: normalize_timestamp_normalize_timestamp_divides_microseconds | +  where False = <built-in function isclose>(253402318800.001, (253402318800001.0 / 1000000))
+[normalize_timestamp] Target: normalize_timestamp_normalize_timestamp_divides_microseconds | +    where <built-in function isclose> = math.isclose
+[normalize_timestamp] Target: normalize_timestamp_normalize_timestamp_too_large_raises | Failed: DID NOT RAISE <class 'ValueError'>

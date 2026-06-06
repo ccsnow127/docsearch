@@ -1,0 +1,15 @@
+[slugify] Target: slugify_slugify_max_length_truncates_with_word_boundary_and_save_order | AssertionError: assert 'ij' == 'abc'
+[slugify] Target: slugify_slugify_max_length_truncates_with_word_boundary_and_save_order | - abc
+[slugify] Target: slugify_slugify_max_length_truncates_with_word_boundary_and_save_order | + ij
+[slugify] Target: slugify_slugify_basic_ascii_and_lowercase_default | AttributeError: module 'slugify' has no attribute 'slugify'
+[slugify] Target: slugify_slugify_replacements_applied_pre_and_post | AttributeError: module 'slugify' has no attribute 'slugify'
+[slugify] Target: slugify_slugify_html_entities_decimal_hexadecimal_converted | AttributeError: module 'slugify' has no attribute 'slugify'
+[slugify] Target: slugify_slugify_decimal_invalid_is_ignored_gracefully | AttributeError: module 'slugify' has no attribute 'slugify'
+[slugify] Target: slugify_slugify_hex_invalid_is_ignored_gracefully | AttributeError: module 'slugify' has no attribute 'slugify'
+[slugify] Target: slugify_slugify_decimal_exception_path_is_swallowed | AttributeError: <module 'slugify' from 'slugify.py'> has no attribute 'DECIMAL_PATTERN'
+[slugify] Target: slugify_slugify_hex_exception_path_is_swallowed | AttributeError: <module 'slugify' from 'slugify.py'> has no attribute 'HEX_PATTERN'
+[slugify] Target: slugify_slugify_non_str_input_is_decoded_from_utf8_bytes | AttributeError: module 'slugify' has no attribute 'slugify'
+[slugify] Target: slugify_slugify_unidecode_returning_bytes_is_decoded | AttributeError: module 'slugify' has no attribute 'unidecode'
+[slugify] Target: slugify_slugify_allow_unicode_keeps_unicode_letters | AttributeError: module 'slugify' has no attribute 'slugify'
+[slugify] Target: slugify_slugify_disallow_unicode_transliterates | AttributeError: module 'slugify' has no attribute 'slugify'
+[slugify] Target: slugify_slugify_custom_separator_replaces_default | AttributeError: module 'slugify' has no attribute 'slugify'

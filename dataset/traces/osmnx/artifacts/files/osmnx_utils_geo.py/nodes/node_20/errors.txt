@@ -1,0 +1,6 @@
+[sample_points] Target: sample_points_sample_points_weighted_sampling | AttributeError: module 'osmnx_synth.utils_geo' has no attribute 'settings'
+[sample_points] Target: sample_points_sample_points_weighted_sampling | AttributeError: module 'osmnx_synth.utils_geo' has no attribute 'settings'
+[sample_points] Target: sample_points_sample_points_weighted_sampling | AttributeError: module 'osmnx_synth.utils_geo' has no attribute 'settings'
+[sample_points] Target: sample_points_sample_points_weighted_sampling | AttributeError: module 'osmnx_synth.utils_geo' has no attribute 'settings'
+[sample_points] Target: sample_points_sample_points_directed_warns | AttributeError
+[sample_points] Target: sample_points_sample_points_weighted_sampling | KeyError: 'crs'

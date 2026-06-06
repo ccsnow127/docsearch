@@ -1,0 +1,6 @@
+[_irregular] Target: _irregular__case_insensitive_same_first_letter_rules_added | AttributeError: module '__init__' has no attribute 'PLURALS'
+[_irregular] Target: _irregular__different_first_letter_rules_added | AttributeError: module '__init__' has no attribute 'PLURALS'
+[pluralize] Target: pluralize_pluralize_uncountable_and_irregular_camelcase | NameError: name 'UNCOUNTABLES' is not defined
+[pluralize] Target: pluralize_pluralize_no_rule_match_returns_original | NameError: name 'UNCOUNTABLES' is not defined
+[singularize] Target: singularize_singularize_uncountable_and_regular_and_camelcase | NameError: name 'UNCOUNTABLES' is not defined
+[tableize] Target: tableize_tableize_underscore_and_pluralize_last_word | NameError: name 'UNCOUNTABLES' is not defined

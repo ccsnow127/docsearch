@@ -1,0 +1,15 @@
+[_irregular] Target: _irregular__case_insensitive_same_first_letter_rules_added | AssertionError: assert 4 == (2 + 6)
+[_irregular] Target: _irregular__case_insensitive_same_first_letter_rules_added | +  where 4 = len([('(?i)(t)eeth$', '\\1eeth'), ('(?i)(t)ooth$', '\\1eeth'), ('(?i)$', 's'), ('(?i)s$', 's')])
+[_irregular] Target: _irregular__case_insensitive_same_first_letter_rules_added | +    where [('(?i)(t)eeth$', '\\1eeth'), ('(?i)(t)ooth$', '\\1eeth'), ('(?i)$', 's'), ('(?i)s$', 's')] = inflection.PLURALS
+[_irregular] Target: _irregular__case_insensitive_same_first_letter_rules_added | +  and   2 = len([('(?i)$', 's'), ('(?i)s$', 's')])
+[_irregular] Target: _irregular__different_first_letter_rules_added | AssertionError: assert 6 == (4 + 4)
+[_irregular] Target: _irregular__different_first_letter_rules_added | +  where 6 = len([('(?i)(g)eese$', '\\1eese'), ('(?i)(g)oose$', '\\1eese'), ('(?i)(t)eeth$', '\\1eeth'), ('(?i)(t)ooth$', '\\1eeth'), ('(?i)$', 's'), ('(?i)s$', 's')])
+[_irregular] Target: _irregular__different_first_letter_rules_added | +    where [('(?i)(g)eese$', '\\1eese'), ('(?i)(g)oose$', '\\1eese'), ('(?i)(t)eeth$', '\\1eeth'), ('(?i)(t)ooth$', '\\1eeth'), ('(?i)$', 's'), ('(?i)s$', 's')] = inflection.PLURALS
+[_irregular] Target: _irregular__different_first_letter_rules_added | +  and   4 = len([('(?i)(t)eeth$', '\\1eeth'), ('(?i)(t)ooth$', '\\1eeth'), ('(?i)$', 's'), ('(?i)s$', 's')])
+[pluralize] Target: pluralize_pluralize_uncountable_and_irregular_camelcase | AssertionError: assert 'sheeps' == 'sheep'
+[pluralize] Target: pluralize_pluralize_uncountable_and_irregular_camelcase | - sheep
+[pluralize] Target: pluralize_pluralize_uncountable_and_irregular_camelcase | + sheeps
+[pluralize] Target: pluralize_pluralize_uncountable_and_irregular_camelcase | ?      +
+[pluralize] Target: pluralize_pluralize_no_rule_match_returns_original | AssertionError: assert 'foos' == 'foo'
+[pluralize] Target: pluralize_pluralize_no_rule_match_returns_original | - foo
+[pluralize] Target: pluralize_pluralize_no_rule_match_returns_original | + foos

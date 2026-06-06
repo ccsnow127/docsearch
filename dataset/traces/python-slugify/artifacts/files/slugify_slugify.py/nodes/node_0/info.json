@@ -1,0 +1,13 @@
+{
+  "id": 0,
+  "event": "bootstrap",
+  "parent_id": null,
+  "refined_entity": null,
+  "phi": {
+    "smart_truncate": 0.9,
+    "slugify": 0.7222222222222222
+  },
+  "mean_phi": 0.8111111111111111,
+  "intractable": [],
+  "depth": 0
+}

@@ -1,0 +1,11 @@
+node_0 (phi=0.000)
+  node_1 (phi=0.000) refined=count_by
+    node_3 (phi=0.783) refined=count_by
+      node_5 (phi=0.826) refined=partition
+        node_7 (phi=0.826) refined=lconcat
+          node_9 (phi=0.826) refined=lconcat
+            node_11 (phi=0.826) refined=lconcat
+              node_13 (phi=0.870) refined=lconcat
+                node_15 (phi=0.870) refined=lmap
+                  node_17 (phi=0.870) refined=lmap
+                    node_19 (phi=0.870) refined=lmap

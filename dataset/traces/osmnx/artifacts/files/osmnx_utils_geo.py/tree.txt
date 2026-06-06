@@ -1,0 +1,10 @@
+node_0 (phi=0.400)
+  node_1 (phi=0.850) refined=_consolidate_subdivide_geometry
+    node_3 (phi=0.850) refined=_consolidate_subdivide_geometry
+      node_5 (phi=0.850) refined=_consolidate_subdivide_geometry
+        node_7 (phi=0.850) refined=_consolidate_subdivide_geometry
+          node_9 (phi=0.850) refined=_consolidate_subdivide_geometry
+            node_11 (phi=0.850) refined=_consolidate_subdivide_geometry
+              node_15 (phi=0.850) refined=_consolidate_subdivide_geometry
+                node_17 (phi=0.850) refined=_consolidate_subdivide_geometry
+                  node_19 (phi=0.850) refined=_consolidate_subdivide_geometry

@@ -1,0 +1,52 @@
+# Starter MkDocs config for the DocSearch documentation site.
+# Publish with:  pip install mkdocs-material && mkdocs serve
+# The docs/ tree is plain Markdown, so you can swap this for Docusaurus or any
+# other static-site generator without rewriting content.
+
+site_name: DocSearch
+site_description: >-
+  Optimize a repository's documentation until an LLM can rebuild its code from
+  the docs alone. The system behind the ICML 2026 paper.
+repo_url: https://github.com/ccsnow127/docsearch
+repo_name: ccsnow127/docsearch
+edit_uri: edit/main/docs/
+
+theme:
+  name: material
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+    - scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+  features:
+    - navigation.sections
+    - navigation.top
+    - content.code.copy
+    - toc.follow
+
+markdown_extensions:
+  - admonition
+  - toc:
+      permalink: true
+  - pymdownx.highlight
+  - pymdownx.superfences
+  - pymdownx.details
+
+nav:
+  - Home: index.md
+  - Getting Started: getting-started.md
+  - Concepts: concepts.md
+  - Architecture: architecture.md
+  - CLI Reference: cli.md
+  - Language Support: languages.md
+  - News:
+      - "Repo-level input": news/2026-06-repo-level-input.md
+      - "Java support": news/2026-06-java-support.md

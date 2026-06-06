@@ -1,0 +1,12 @@
+{
+  "event": "done",
+  "current_node_id": 20,
+  "mean_phi": 0.8388888888888889,
+  "phi": {
+    "smart_truncate": 0.9,
+    "slugify": 0.7777777777777778
+  },
+  "intractable": [
+    "smart_truncate"
+  ]
+}

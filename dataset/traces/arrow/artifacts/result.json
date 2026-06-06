@@ -1,0 +1,24 @@
+{
+  "status": "completed",
+  "mode": "repo",
+  "repo": "benchmarks/python/arrow",
+  "language": "python",
+  "budget": 10,
+  "width": 2,
+  "files_processed": [
+    "arrow/util.py"
+  ],
+  "files_skipped": [],
+  "budget_fully_used": true,
+  "per_file": [
+    {
+      "file": "arrow/util.py",
+      "entities": 6,
+      "best_mean_phi": 0.9583333333333334,
+      "iterations": 10,
+      "budget_fully_used": true,
+      "intractable": []
+    }
+  ],
+  "timestamp": "2026-06-05T09:06:18.361188"
+}
